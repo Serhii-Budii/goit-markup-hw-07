@@ -16,164 +16,165 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
-    <link rel="stylesheet" href="./css/main.css" />
+    <!-- <link rel="stylesheet" href="./css/styles.css" /> -->
+    <link rel="stylesheet" href="./css/main.min.css"/>
 </head>
 
 <body class="site-body">
     <header class="header">
-      <div class="container header-container">
-        <nav class="header-navigation">
-        <a href="./index.html" class="header-logo link"> <span class="head-logo">Web</span>Studio</a>
-        <ul class="header-list list">
-         <li class="header-item"> <a href="./index.html" class="header-link link">Студія</a></li>
-         <li class="header-item"><a href="./portfolio.html" class="header-link link current portfolio">Портфоліо</a></li>
-         <li class="header-item"><a href="#" class="header-link link">Контакти</a></li>
+      <div class="container header__container">
+        <nav class="navigation">
+        <a href="./index.html" class="logo navigation__logo link"> <span class="navigation__logo1">Web</span>Studio</a>
+        <ul class="menu list">
+         <li class="menu__item"><a href="./index.html" class="menu__link link">Студія</a></li>
+         <li class="menu__item"><a href="./portfolio.html" class="menu__link link current portfolio">Портфоліо</a></li>
+         <li class="menu__item"><a href="#" class="menu__link link">Контакти</a></li>
         </ul>
         </nav>
-        <ul class="header-list-contact list">
-            <li><a class="header-mail link" href="mailto:info@devstudio.com">
-              <svg class="header-mail-logo">
+        <ul class="connect header__connect list">
+            <li><a class="connect__mail link" href="mailto:info@devstudio.com">
+              <svg class="connect-icon">
                         <use href="./img/icons.svg#icon-envelope-hover" width="16" height="12"></use>
                     </svg>info@devstudio.com</a></li>
-            <li><a class="header-tel link" href="tel:+380961111111">
-               <svg class="header-tel-logo">
+            <li><a class="connect__tel link" href="tel:+380961111111">
+               <svg class="connect-icon1">
                         <use href="./img/icons.svg#icon-smartphone" width="16" height="12"></use>
                     </svg>+38 096 111 11 11</a></li>
         </ul>
       </div>
     </header>
       <main>
-        <section class="portfol-sek">
+        <section class="main__section">
           <h1 class="visually-hidden">Портфоліо</h1>
           <div class="container">
-          <ul class="main list">
-            <li><button type="button" class="main-btn link">Усі</button></li>
-            <li><button type="button" class="main-btn link">Веб-сайти</button></li>
-            <li><button type="button" class="main-btn link">Додатки</button></li>
-            <li><button type="button" class="main-btn link">Дизайн</button></li>
-            <li><button type="button" class="main-btn link">Маркетинг</button></li>
+          <ul class="main__list list">
+            <li><button type="button" class="main__btn link">Усі</button></li>
+            <li><button type="button" class="main__btn link">Веб-сайти</button></li>
+            <li><button type="button" class="main__btn link">Додатки</button></li>
+            <li><button type="button" class="main__btn link">Дизайн</button></li>
+            <li><button type="button" class="main__btn link">Маркетинг</button></li>
           </ul>
 
           <ul class="portfol list">
-            <li class="portfol-grid">
-            <a class="portfol-item link" href="">
-               <div class="portfol-top-wrap">
+            <li class="portfol__grid">
+            <a class="portfol__item link" href="">
+               <div class="portfol__top">
                 <img
                   src="./img/portfolio/tehno1.jpg"
                   alt="comp"
                   width="370"
                   height="294"
                 />
-                <p class="portfol-top-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+                <p class="portfol__top-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
                </div>
-                <div class="portfol-info">
-                  <h2 class="portfol-title">Технокряк</h2>
-                  <p class="portfol-text" >Веб-сайт</p>
+                <div class="portfol__info">
+                  <h2 class="portfol__title">Технокряк</h2>
+                  <p class="portfol__text" >Веб-сайт</p>
                </div>
             </a>
             </li>
-            <li class="portfol-grid">
-              <a class="portfol-item link" href="">
-              <div class="portfol-top-wrap">
+            <li class="portfol__grid">
+              <a class="portfol__item link" href="">
+              <div class="portfol__top">
               <img src="./img/portfolio/poster2.jpg" 
               alt="poster" />
-               <p class="portfol-top-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+               <p class="portfol__top-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
              </div>
-              <div class="portfol-info">
-                <h2 lang="en" class="portfol-title">Постер New Orlean vs Golden Star</h2>
-                <p class="portfol-text" >Дизайн</p>
+              <div class="portfol__info">
+                <h2 lang="en" class="portfol__title">Постер New Orlean vs Golden Star</h2>
+                <p class="portfol__text" >Дизайн</p>
               </div>
             </a>
             </li>
-            <li class="portfol-grid">
-              <a class="portfol-item link" href="">
-              <div class="portfol-top-wrap">
+            <li class="portfol__grid">
+              <a class="portfol__item link" href="">
+              <div class="portfol__top">
               <img
                 src="./img/portfolio/restourant3.jpg"
                 alt="restourant"/>
-               <p class="portfol-top-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+               <p class="portfol__top-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
              </div>
-               <div class="portfol-info">
-                <h2 class="portfol-title" >Ресторан Seafood</h2>
-                <p class="portfol-text" >Додаток</p>
+               <div class="portfol__info">
+                <h2 class="portfol__title" >Ресторан Seafood</h2>
+                <p class="portfol__text" >Додаток</p>
              </div>
             </a>
             </li>
-            <li class="portfol-grid">
-              <a class="portfol-item link" href="">
-              <div class="portfol-top-wrap">
+            <li class="portfol__grid">
+              <a class="portfol__item link" href="">
+              <div class="portfol__top">
               <img src="./img/portfolio/prime4.jpg" 
               alt="gadjet"/>
-               <p class="portfol-top-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+               <p class="portfol__top-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
               </div>
-               <div class="portfol-info">
-                <h2 lang="en" class="portfol-title">Проєкт Prime</h2>
-                <p class="portfol-text" >Маркетинг</p>
+               <div class="portfol__info">
+                <h2 lang="en" class="portfol__title">Проєкт Prime</h2>
+                <p class="portfol__text" >Маркетинг</p>
               </div>
             </a>
             </li>
-            <li class="portfol-grid">
-              <a class="portfol-item link" href="">
-              <div class="portfol-top-wrap">
+            <li class="portfol__grid">
+              <a class="portfol__item link" href="">
+              <div class="portfol__top">
               <img src="./img/portfolio/boxes5.jpg" 
               alt="box" />
-               <p class="portfol-top-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+               <p class="portfol__top-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
              </div>
-               <div class="portfol-info">
-                <h2 class="portfol-title" >Проєкт Boxes</h2>
-                <p class="portfol-text" >Додаток</p>
+               <div class="portfol__info">
+                <h2 class="portfol__title" >Проєкт Boxes</h2>
+                <p class="portfol__text" >Додаток</p>
              </div>
             </a>
             </li>
-            <li class="portfol-grid">
-              <a class="portfol-item link" href="">
-              <div class="portfol-top-wrap">
+            <li class="portfol__grid">
+              <a class="portfol__item link" href="">
+              <div class="portfol__top">
               <img src="./img/portfolio/inspiration6.jpg" 
               alt="pc" />
-               <p class="portfol-top-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+               <p class="portfol__top-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
               </div>
-               <div class="portfol-info">
-                <h2 lang="en" class="portfol-title" >Inspiration has no Borders</h2>
-                <p class="portfol-text" >Веб-сайт</p>
+               <div class="portfol__info">
+                <h2 lang="en" class="portfol__title" >Inspiration has no Borders</h2>
+                <p class="portfol__text" >Веб-сайт</p>
               </div>
             </a>
             </li>
-            <li class="portfol-grid">
-              <a class="portfol-item link" href="">
-              <div class="portfol-top-wrap">
+            <li class="portfol__grid">
+              <a class="portfol__item link" href="">
+              <div class="portfol__top">
               <img src="./img/portfolio/limited7.jpg" 
               alt="magazine" />
-               <p class="portfol-top-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+               <p class="portfol__top-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
              </div>
-               <div class="portfol-info">
-                <h2 lang="en" class="portfol-title" >Видання Limited Edition</h2>
-                <p class="portfol-text" >Дизайн</p>
+               <div class="portfol__info">
+                <h2 lang="en" class="portfol__title" >Видання Limited Edition</h2>
+                <p class="portfol__text" >Дизайн</p>
              </div>
             </a>
             </li>
-            <li class="portfol-grid">
-              <a class="portfol-item link" href="">
-              <div class="portfol-top-wrap">
+            <li class="portfol__grid">
+              <a class="portfol__item link" href="">
+              <div class="portfol__top">
               <img src="./img/portfolio/lab8.jpg" 
               alt="lab" />
-               <p class="portfol-top-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+               <p class="portfol__top-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
              </div>
-               <div class="portfol-info">
-                <h2 class="portfol-title" >Проєкт LAB</h2>
-                <p class="portfol-text" >Маркетинг</p>
+               <div class="portfol__info">
+                <h2 class="portfol__title" >Проєкт LAB</h2>
+                <p class="portfol__text" >Маркетинг</p>
              </div>
             </a>
             </li>
-            <li class="portfol-grid">
-              <a class="portfol-item link" href="">
-              <div class="portfol-top-wrap">
+            <li class="portfol__grid">
+              <a class="portfol__item link" href="">
+              <div class="portfol__top">
               <img src="./img/portfolio/growing9.jpg" 
               alt="notebook" />
-               <p class="portfol-top-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+               <p class="portfol__top-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
               </div>
-               <div class="portfol-info">
-                <h2 lang="en" class="portfol-title" >Growing Business</h2>
-                <p class="portfol-text" >Додаток</p>
+               <div class="portfol__info">
+                <h2 lang="en" class="portfol__title" >Growing Business</h2>
+                <p class="portfol__text" >Додаток</p>
               </div>
             </a>
             </li>
@@ -185,12 +186,12 @@
     <footer class="footer">
       <div class="container">
         <div class="footer-address">
-        <a href="./index.html" class="footer-logo link"><span class="foot-logo">Web</span>Studio</a>
-        <address class="footer-address-list">
+        <a href="./index.html" class="footer__logo link"><span class="foot__logo">Web</span>Studio</a>
+        <address class="footer__adress-list">
           <p class="adress">м. Київ, пр-т Лесі Українки, 26</p>
-          <ul class="footer-list list">
-            <li><a class="footer-mail link" href="maito:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a class="footer-tel link" href="tel:+380961111111">+38 096 111 11 11</a></li> 
+          <ul class="footer__list list">
+            <li class="footer__mail-li"><a class="footer__mail link" href="maito:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a class="footer__tel link" href="tel:+380961111111">+38 096 111 11 11</a></li> 
           </ul>
         </address>
         </div>
