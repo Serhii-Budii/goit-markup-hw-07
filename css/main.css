@@ -613,7 +613,7 @@ body {
   transform: translate(-50%, -50%) scale(0);
 }
 
-.modal__close {
+.modal-close {
   width: 30px;
   height: 30px;
   background-color: transparent;
@@ -628,11 +628,11 @@ body {
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal__close:hover {
+.modal-close:hover {
   background-color: var(--accent-colors);
 }
 
-.modal__title {
+.modal-title {
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
@@ -642,15 +642,15 @@ body {
   margin-bottom: 12px;
 }
 
-.modal__field {
+.modal-field {
   margin-bottom: 10px;
 }
 
-.input__wrap {
+.input-wrap {
   position: relative;
 }
 
-.input__label {
+.input-label {
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
@@ -658,7 +658,7 @@ body {
   margin-bottom: 4px;
 }
 
-.modal__input {
+.modal-input {
   width: 100%;
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -669,51 +669,51 @@ body {
   font-size: 14px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal__input:focus {
+.modal-input:focus {
   border-color: var(--accent-colors);
 }
-.modal__input::-moz-placeholder {
+.modal-input::-moz-placeholder {
   font-size: 13px;
   color: #757575;
 }
-.modal__input:-ms-input-placeholder {
+.modal-input:-ms-input-placeholder {
   font-size: 13px;
   color: #757575;
 }
-.modal__input::placeholder {
+.modal-input::placeholder {
   font-size: 13px;
   color: #757575;
 }
-.modal__input:not(:focus):not(:-moz-placeholder-shown):valid {
+.modal-input:not(:focus):not(:-moz-placeholder-shown):valid {
   background-color: rgb(124, 235, 124);
 }
-.modal__input:not(:focus):not(:-ms-input-placeholder):valid {
+.modal-input:not(:focus):not(:-ms-input-placeholder):valid {
   background-color: rgb(124, 235, 124);
 }
-.modal__input:not(:focus):not(:placeholder-shown):valid {
+.modal-input:not(:focus):not(:placeholder-shown):valid {
   background-color: rgb(124, 235, 124);
 }
-.modal__input:not(:focus):not(:-moz-placeholder-shown):invalid {
+.modal-input:not(:focus):not(:-moz-placeholder-shown):invalid {
   background-color: rgb(190, 107, 107);
 }
-.modal__input:not(:focus):not(:-ms-input-placeholder):invalid {
+.modal-input:not(:focus):not(:-ms-input-placeholder):invalid {
   background-color: rgb(190, 107, 107);
 }
-.modal__input:not(:focus):not(:placeholder-shown):invalid {
+.modal-input:not(:focus):not(:placeholder-shown):invalid {
   background-color: rgb(190, 107, 107);
 }
 
-.modal__input-icon {
+.modal-input-icon {
   position: absolute;
   left: 8px;
   top: 50%;
   transform: translateY(-50%);
 }
-.modal__input:focus + .modal__input-icon {
+.modal-input:focus + .modal-input-icon {
   fill: var(--accent-colors);
 }
 
-.modal__text {
+.modal-text {
   width: 100%;
   height: 120px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -721,20 +721,20 @@ body {
   padding: 12px 16px;
   resize: none;
 }
-.modal__text::-moz-placeholder {
+.modal-text::-moz-placeholder {
   font-size: 13px;
   color: #757575;
 }
-.modal__text:-ms-input-placeholder {
+.modal-text:-ms-input-placeholder {
   font-size: 13px;
   color: #757575;
 }
-.modal__text::placeholder {
+.modal-text::placeholder {
   font-size: 13px;
   color: #757575;
 }
 
-.check__text {
+.check-text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -743,7 +743,7 @@ body {
   text-align: center;
 }
 
-.check__text span {
+.check-text span {
   width: 16px;
   height: 15px;
   border: 2px solid #212121;
@@ -754,20 +754,20 @@ body {
   justify-content: center;
   fill: transparent;
 }
-.input__check:checked + .check__text span {
+.input-check:checked + .check-text span {
   background-color: var(--accent-colors);
   border-color: transparent;
   fill: #FFFFFF;
 }
-.input__check:focus + .check__text span {
+.input-check:focus + .check-text span {
   border-color: var(--accent-colors);
 }
 
-.modal__btn-befor {
+.modal-btn-befor {
   margin-bottom: 30px;
 }
 
-.modal__btn {
+.modal-btn {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -783,7 +783,7 @@ body {
   display: block;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal__btn:hover, .modal__btn:focus {
+.modal-btn:hover, .modal-btn:focus {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
